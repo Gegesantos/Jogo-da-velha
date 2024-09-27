@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>seja bem vindo ao jogo da velha</p>
+            <button class="btn-proximo" data-proximo="1">bolinha</button>
+            <button class="btn-proximo" data-proximo="2">x</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>faça quatro linhas no papel duas na vertical e duas na horizontal</p>
+            <button class="btn-proximo" data-proximo="3">tirar par ou impar para ver quem começa</button>
+            <button class="btn-proximo" data-proximo="4">quem ganhar começa o jogo com o x ou a bolinha</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>ecolhe em qual quadradinho colocar o x ou a bolinha</p>
+            <button class="btn-proximo" data-proximo="5">o outro jogador tem que colocar a bolinha em outro quadradinho que não seja aonde o primeiro colocou</button>
+            <button class="btn-proximo" data-proximo="6">vence quem fizer uma sequencia de bolinha ou x</button>
+        </div>
+        
